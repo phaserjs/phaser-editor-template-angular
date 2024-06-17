@@ -6,9 +6,9 @@ This is a Phaser 3 project template that uses the Angular framework. It includes
 
 This template has been updated for:
 
-- [Phaser 3.55.2](https://github.com/phaserjs/phaser)
-- [Angular {@angular/core-version}](https://github.com/angular)
-- [TypeScript ~5.3.2](https://github.com/microsoft/TypeScript)
+- [Phaser 3.80.1](https://github.com/phaserjs/phaser)
+- [Angular 17.2.0](https://github.com/angular)
+- [TypeScript 5.3.2](https://github.com/microsoft/TypeScript)
 
 ![screenshot](screenshot.png)
 

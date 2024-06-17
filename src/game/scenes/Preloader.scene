@@ -6,6 +6,7 @@
         "autoImport": true,
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
         "sceneKey": "Preloader",
         "borderWidth": 1024,
         "borderHeight": 768
