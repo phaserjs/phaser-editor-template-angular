@@ -19,10 +19,20 @@ export default class Preloader extends Phaser.Scene {
 	editorCreate(): void {
 
 		// image_56ba42f5-7d7b-4134-a21e-85c51411440a
-		this.add.image(447, 384, "background");
+		this.add.image(512, 384, "background");
+
+		// progressBar
+		const progressBar = this.add.rectangle(512, 384, 468, 32);
+		progressBar.isFilled = true;
+		progressBar.fillColor = 14737632;
+		progressBar.isStroked = true;
+
+		this.progressBar = progressBar;
 
 		this.events.emit("scene-awake");
 	}
+
+	private progressBar!: Phaser.GameObjects.Rectangle;
 
 	/* START-USER-CODE */
 
@@ -31,9 +41,9 @@ export default class Preloader extends Phaser.Scene {
     {
 
 		this.editorCreate();
-		
+
         //  This is the progress bar itself. It will increase in size from the left based on the % of progress.
-        const bar = this.add.rectangle(512-230, 384, 4, 28, 0xffffff);
+        const bar = this.add.rectangle(this.progressBar.x - this.progressBar.width / 2 + 4, this.progressBar.y, 4, 28, 0xffffff)
 
         //  Use the 'progress' event emitted by the LoaderPlugin to update the loading bar
         this.load.on('progress', (progress: number) => {

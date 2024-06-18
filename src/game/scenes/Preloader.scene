@@ -6,8 +6,8 @@
         "autoImport": true,
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
-        "compilerOutputLanguage": "TYPE_SCRIPT",
         "sceneKey": "Preloader",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
         "borderWidth": 1024,
         "borderHeight": 768
     },
@@ -26,6 +26,7 @@
             "type": "Rectangle",
             "id": "845d4ca6-7417-44fc-97e3-a3bb2fbbdd03",
             "label": "progressBar",
+            "scope": "CLASS",
             "x": 512,
             "y": 384,
             "isFilled": true,
@@ -38,7 +39,7 @@
     "plainObjects": [],
     "meta": {
         "app": "Phaser Editor 2D - Scene Editor",
-        "url": "https://phaser.io/editor",
+        "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 5
     }
