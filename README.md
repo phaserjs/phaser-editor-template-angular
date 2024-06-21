@@ -1,6 +1,6 @@
 # Phaser Editor Angular Template
 
-This is a Phaser Editor v4 project template that uses {template-name} for bundling. It supports hot-reloading for quick development workflow and includes scripts to generate production-ready builds.
+This is a Phaser Editor v4 project template that uses Angular for bundling. It supports hot-reloading for quick development workflow and includes scripts to generate production-ready builds.
 
 ### Versions
 
