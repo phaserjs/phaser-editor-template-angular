@@ -1,5 +1,5 @@
 {
-    "name": "template-angular",
+    "name": "phaser-editor-template-angular",
     "version": "1.0.1",
     "description": "A Phaser 3 project template that demonstrates Angular communication.",
     "repository": {
